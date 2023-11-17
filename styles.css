@@ -1,0 +1,100 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+
+body
+{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("https://scontent.fjdo10-2.fna.fbcdn.net/v/t39.30808-6/236439010_1854128974761191_1672064379130286431_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=g5ZIF57JumcAX9HTT8-&_nc_ht=scontent.fjdo10-2.fna&oh=00_AfDXw_W5sMKXnfQ_LulBEn1eIKb_et8vLWA1Zo8iTnFsBQ&oe=655C1242");
+   background-position: 50% 100%;
+}
+
+.caixa-maior
+{
+   background: #000000;
+   opacity: .6;
+   border-radius: 25px;
+   padding: 20px;
+   width: 95%;
+   max-width: 450px;
+}
+
+.input-cidade
+{
+   border: none;
+   outline: none;
+   padding: 10px;
+   border-radius: 25px;
+   font-size: 20px;
+   background-color: rgba(36, 30, 30, 0.678);
+   color: #3d3535;
+   width: calc(100% - 100px);
+}
+
+.botao-busca
+{
+   border: none;
+   outline: none;
+   padding: 10px;
+   border-radius: 50px;
+   background-color: rgba(206, 176, 176, 0.678);
+   cursor: pointer;
+   float: right;
+}
+
+.img-busca
+{
+   width: 20px;
+}
+
+.caixa-media
+{
+   margin-top: 30px;
+}
+
+.cidade
+{
+   color: #ffffff;
+   font-size: 28px;
+   font-weight: 300;
+}
+
+.temperatura
+{
+   font-size: 20px;
+   color: #ffffff;
+   margin-top: 20px;
+}
+
+.caixa-menor
+{
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.texto-previsao
+{
+   color: #ffffff;
+   margin-left: 20px;
+   text-transform: capitalize;
+}
+
+.umidade
+{
+   color: #ffffff;
+   margin-top: 20px;
+}
+
+.error
+{
+   color: #ff0000;
+}
+
+.patternImg
+{
+   width: 30px;
+   height: 30px;
+}
